@@ -1,40 +1,52 @@
-import { FaLinkedin, FaGoogleScholar, FaRegIdBadge, FaGithub, FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin, FaRegIdBadge, FaGithub, FaSquareFacebook } from "react-icons/fa6";
 
 export const profile = {
-  name: `[Your Name]`,
-  headline: `Student @ [Your University]`,
-  email: `your-email@gmail.com`,
-  location: null,
-  profileImage: `https://github.com/pm25.png`,
+  name: `Nguyễn Như Đức`,
+  headline: `Full-Stack Software Engineer`,
+  email: `ducnguyennhu410@outlook.com`,
+  location: `Dong Da, Ha Noi`,
+  profileImage: `/showlit/images/20173026.jpg`,
   links: [
     {
       name: `LinkedIn`,
-      url: `https://www.linkedin.com/in/[your-linkedin]`,
-      icon: FaLinkedin,
-    },
-    {
-      name: `Google Scholar`,
-      url: `https://scholar.google.com/citations?user=[your-id]`,
-      icon: FaGoogleScholar,
+      url: `https://www.linkedin.com/in/nguy%E1%BB%85n-nh%C6%B0-%C4%91%E1%BB%A9c-204480285/`,
+      icon: FaLinkedin
     },
     {
       name: `Résumé`,
-      url: `/showlit/pdf/sample-resume.pdf`,
-      icon: FaRegIdBadge,
+      url: `/showlit/pdf/Nguyen_Nhu_Duc_CV.pdf`,
+      icon: FaRegIdBadge
     },
     {
       name: `Github`,
-      url: `https://github.com/[your-github]`,
-      icon: FaGithub,
+      url: `https://github.com/duc410`,
+      icon: FaGithub
     },
     {
       name: `Facebook`,
-      url: `https://www.facebook.com/[your-facebook]`,
-      icon: FaSquareFacebook,
-    },
+      url: `https://www.facebook.com/NhuDuc0410`,
+      icon: FaSquareFacebook
+    }
   ],
-  biography: `Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
-<div class="my-2"></div>
-Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.`,
+  biography: `<p>
+  I am a <strong>Software Engineer</strong> with <strong>3.5 years of experience</strong> in full-stack web development, specializing in the <strong>.NET ecosystem</strong> and modern JavaScript frameworks.
+</p>
+<p>
+  My primary expertise is building scalable enterprise applications using <strong>C#</strong>, <strong>ASP.NET Core</strong>, <strong>ASP.NET Boilerplate</strong>, <strong>Angular</strong>, and <strong>PostgreSQL</strong>. I also have hands-on experience with <strong>ReactJS</strong>, <strong>VueJS</strong>, <strong>TypeScript</strong>, <strong>SQL Server</strong>, and <strong>RESTful API</strong> development.
+</p>
+<p>Throughout my career, I have contributed to various enterprise projects, including:</p>
+<ul class="list-disc list-inside space-y-1 my-2">
+  <li><strong>Enterprise ERP/CRM Systems:</strong> Developing business modules for Sales, Inventory, Accounting, HR, Purchasing, and Project Management.</li>
+  <li><strong>Banking Hardware Management:</strong> Building management platforms for cash deposit machines (CDM), including hardware monitoring, transaction tracking, and reporting.</li>
+  <li><strong>Transportation & Tracking Systems:</strong> Developing fleet management applications with real-time vehicle tracking, route management, and alert systems.</li>
+  <li><strong>Examination Management Systems:</strong> Developing exam management platforms with candidate registration, scheduling, and online payment integration.</li>
+</ul>
+
+<p>
+  I enjoy solving complex technical problems, optimizing application performance, designing maintainable architectures, and continuously learning new technologies.
+</p>
+
+<p>
+  I am always interested in challenging software engineering opportunities and collaborating with talented development teams. Feel free to <a href="mailto:ducnguyennhu410@outlook.com" target="_blank" rel="noopener noreferrer">reach out</a> or connect on <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-nh%C6%B0-%C4%91%E1%BB%A9c-204480285/" target="_blank" rel="noopener noreferrer">LinkedIn</a>!
+</p>`
 };

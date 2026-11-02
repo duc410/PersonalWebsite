@@ -1,38 +1,18 @@
-import { LuUser, LuWrench, LuLibraryBig, LuNewspaper, LuClapperboard, LuMusic } from "react-icons/lu";
+import { LuUser, LuMusic } from "react-icons/lu";
 
 export const sidebar = {
-  userName: `[Your Name]`,
-  profileImage: `https://github.com/shadcn.png`,
+  userName: `Nguyễn Như Đức`,
+  profileImage: `/showlit/images/20173026.jpg`,
   sections: [
     {
       title: `About Me`,
       url: ``,
-      icon: LuUser,
-    },
-    {
-      title: `Projects`,
-      url: `projects`,
-      icon: LuWrench,
-    },
-    {
-      title: `Publications`,
-      url: `publications`,
-      icon: LuLibraryBig,
-    },
-    {
-      title: `Articles`,
-      url: `articles`,
-      icon: LuNewspaper,
-    },
-    {
-      title: `Movies`,
-      url: `movies`,
-      icon: LuClapperboard,
+      icon: LuUser
     },
     {
       title: `Music`,
       url: `music`,
-      icon: LuMusic,
-    },
-  ],
+      icon: LuMusic
+    }
+  ]
 };
