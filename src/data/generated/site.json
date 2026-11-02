@@ -3,6 +3,6 @@
   "repoUrl": "https://github.com/duc410/showlit",
   "description": "Nguyễn Như Đức - Full-Stack Software Engineer (.NET, Angular, ReactJS, VueJS)",
   "author": "Nguyễn Như Đức",
-  "repoName": "showlit",
-  "base": "/showlit/"
+  "base": "/showlit/",
+  "repoName": "showlit"
 }

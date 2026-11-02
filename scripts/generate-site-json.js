@@ -51,7 +51,8 @@ if (site.repoUrl) {
 
   site.repoName = repoName;
   site.base = repoName.endsWith(".github.io") ? "/" : `/${repoName}/`;
-} else {
+}
+if (data.site?.base) { site.base = data.site.base; } else if (process.env.VERCEL) { site.base = '/'; } else {
   console.warn(
     "⚠️ No repoUrl found in site.yaml. Skipping repoName/base generation.",
   );
