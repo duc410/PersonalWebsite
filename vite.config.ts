@@ -7,7 +7,7 @@ import site from "./src/data/generated/site.json";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: site.base,
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
